@@ -27,3 +27,16 @@
    var modifiedBox=document.getElementById(a+b);
    modifiedBox.className="boxModified";
  })
+
+
+
+ function loop (){
+  var modifiedBox=document.getElementById(a+b);
+  modifiedBox.className="box";
+   b += 1;
+  var modifiedBox=document.getElementById(a+b);
+  modifiedBox.className="boxModified";
+  }
+  
+  window.setInterval(loop, 1000);
+
