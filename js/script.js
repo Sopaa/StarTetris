@@ -37,6 +37,44 @@
   var modifiedBox=document.getElementById(a+b);
   modifiedBox.className="boxModified";
   }
-  
+
   window.setInterval(loop, 1000);
 
+  function loop (){
+    var modifiedBox1=document.getElementById(a+b);
+    var modifiedBox2=document.getElementById(c+d);
+    var modifiedBox3=document.getElementById(e+f);
+    var modifiedBox4=document.getElementById(g+h);
+
+    modifiedBox1.className="box";
+    modifiedBox2.className="box";
+    modifiedBox3.className="box";
+    modifiedBox4.className="box";
+
+     b += 1;
+    var modifiedBox=document.getElementById(a+b);
+    modifiedBox.className="boxModified";
+    }
+  
+
+
+  var forme1 = {
+    
+  }
+
+
+
+
+  function generateForm() {
+
+  }
+
+  var modifiedBox = [];
+
+ /* for (var i = 0; i<4; i++){
+     modifiedBox[i] = document.getElementById(a+b);
+     modifiedBox[i].className="boxModified";
+  }
+
+  */
+  
