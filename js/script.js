@@ -42,6 +42,8 @@ window.addEventListener('keydown', function(event){
       createBox();
     }
 
+
+
   var compar=document.getElementById(a+(b+1));
   if(compar.classList.contains("boxFix")===true){
     modifiedBox.className="boxFix";
@@ -101,4 +103,3 @@ window.addEventListener('keydown', function(event){
 
   */
   
-
