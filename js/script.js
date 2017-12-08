@@ -55,14 +55,26 @@ window.addEventListener('keydown', function(event){
 
 })
 
-
-
  function loop (){
   var modifiedBox=document.getElementById(a+b);
   modifiedBox.className="box";
    b += 1;
   var modifiedBox=document.getElementById(a+b);
   modifiedBox.className="boxModified";
+
+  if(b===20){
+    modifiedBox.className="boxFix";
+    createBox();
+  }
+
+var compar=document.getElementById(a+(b+1));
+if(compar.classList.contains("boxFix")===true){
+  modifiedBox.className="boxFix";
+  if(b===2){
+    alert('VAS NIQUER TA MERE');
+  }
+  createBox();
+}
   }
 
   window.setInterval(loop, 1000);
@@ -80,11 +92,11 @@ window.addEventListener('keydown', function(event){
     var modifiedBox=document.getElementById(a+b);
     modifiedBox.className="boxModified";
     }
-  
+
 
 
   var forme1 = {
-    
+
   }
 
 
@@ -102,4 +114,3 @@ window.addEventListener('keydown', function(event){
   }
 
   */
-  
