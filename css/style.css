@@ -60,4 +60,10 @@ body{
 .img{
   width: 100%;
   height:auto;
+
+.boxFix{
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+  background: red;
 }
